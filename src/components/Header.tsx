@@ -20,7 +20,7 @@ const Header = () => {
           <li>Unlimited cards</li>
           <li>Unlimited Power-Ups per board</li>
         </ul>
-        <div>
+        <div className="w-full flex max-w-sm items-center space-x-2 mt-3">
           <Input type="email" placeholder="email" />
           <Button type="submit" className="bg-blue-600 text-white">
             Sign up - it's free !
