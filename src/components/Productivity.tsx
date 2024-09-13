@@ -15,11 +15,15 @@ const Productivity = () => {
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-[1.2fr_2fr] gap-2">
-        <div className="flex flex-col justify-between py-4 leading-normal">
+        <div className="flex flex-col justify-between py-6 px-3 leading-normal">
           {productiveList?.map((item, index) => (
             <div
               key={index}
-              className={`cursor-pointer p-3 rounded-md`}
+              className={`cursor-pointer p-3 rounded-md ${
+                index === itemIndex
+                  ? "bg-white md:border-l-4 md:border-[#00c7e5]"
+                  : ""
+              }`}
               onClick={() => setItemIndex(index)}
             >
               <h5 className="mb-2 text-lg font-bold tracking-tight">
