@@ -24,7 +24,8 @@ const Workflow = () => {
             <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/4">
               <div className="bg-white rounded-md h-64">
                 <div
-                  className={`h-10 w-full ${item.color} rounded-t-md relative`}
+                  className='h-10 w-full rounded-t-md relative'
+                  style={{backgroundColor: item.color}}
                 >
                   <div className="h-10 w-10 bg-white absolute bottom-[-15px] left-3 rounded-md p-1">
                     <img src={item.img} alt="" />
