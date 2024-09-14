@@ -52,3 +52,34 @@ export const workflowList = [
     color: "#f99cdb",
   },
 ];
+
+export const plansList = [
+  {
+    planName: "free",
+    price: 0,
+    title: "Free for your whole team",
+    desc: "For individuals or teams looking to organize any project.",
+    button: "get started",
+  },
+  {
+    planName: "standard",
+    price: 5,
+    title: "Per user/month if billed annually ($6 billed monthly)",
+    desc: "For small teams that need to manage work and scale collaboration.",
+    button: "Sign up now",
+  },
+  {
+    planName: "premium",
+    price: 10,
+    title: "Per user/month if billed annually ($12.50 billed monthly)",
+    desc: "For teams that need to track and visualize multiple projects in several ways, including boards, timelines, calendars, etc.    ",
+    button: "try for free",
+  },
+  {
+    planName: "enterprise",
+    price: 17.5,
+    title: "Per user/month - billed annually ($210.00 annual price per user)",
+    desc: "For organizations that need to connect work across teams with more security and controls.    ",
+    button: "contact sale",
+  },
+];
